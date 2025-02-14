@@ -8,20 +8,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8b549d48f9.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <style>
-        .font-manrope {
-        font-family: "Manrope", serif;
 
-        }
-    </style>
     <style type="text/tailwindcss">
         @theme {
           --color-secondary: #777777;
+          --font-manrope: "Manrope", "serif";
         }
+    </style>
+
+
     </style>
     <title>Tea House</title>
 </head>
-<body >
+<body class="font-manrope">
     <header class="max-w-100 md:max-w-6xl m-auto md:pt-4 pt-6 md:flex  items-center justify-between ">
         <div class="space-y-4 md:space-y-8 md:mt-15">
             <h1 class="text-2xl md:text-7xl  font-extrabold">It's good <br>
@@ -164,7 +163,7 @@
             </div>
             
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full md:w-9/12 mx-auto md:p-10 p-5 ">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full md:w-9/12 mx-auto md:p-10 p-5  space-y-8 text-center">
             <div class="space-y-4">
                 <h1 class="font-bold text-base md:text-xl">Quick Links</h1>
                 <ul class="text-sm md:text-base font-light space-y-4 text-gray-500">
@@ -194,7 +193,7 @@
             <div class="space-y-7">
                 <h1 class="font-bold text-base md:text-2xl">Subscribe to our newsletter</h1>
                 <div class="mb-5"><input class="text-gray-500 font-light text-lg md:text-base border-b-2 border-gray-400" placeholder="Email address" type="email" name="" id="">
-                    <p class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] w-7 text-center rounded-full text-white translate-x-45 -translate-y-7">></p>
+                    <p class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] w-7 text-center rounded-full text-white inline-flex justify-center items-center">></p>
                 </div>
                 <div>
                     <img src="" alt=""><img src="" alt=""><img src="" alt="">
